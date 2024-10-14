@@ -1,0 +1,21 @@
+main {
+    background-color: var(--gray-200);
+    
+    #text-main {
+        text-align: center;
+    }
+    
+    #text-main h2 {
+        padding-top: 72px;
+        font-size: 20px;
+    }
+    
+    #text-main > h1 {
+        font-size: 20px;
+        color: var(--gray-600);
+        padding-top: 8px;
+    }
+}
+
+
+

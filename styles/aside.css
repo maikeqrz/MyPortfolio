@@ -1,0 +1,6 @@
+aside {
+    background-color: var(--gray-200);
+    text-align: center;
+    height: 165px;
+    place-content: center;
+}

@@ -1,6 +1,6 @@
 header {
     width: 100vw;
-    height: 750px;
+    height: 665px;
     background-image: url(/assets/backgrounds/Background_Intro.png);
     
     background-repeat: no-repeat;
@@ -24,6 +24,7 @@ header {
         
         h2 {
             font-size: 20px;
+            color: var(--gray-400);
         }
         h1 {
             font-size: 56px;
