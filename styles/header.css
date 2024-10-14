@@ -1,0 +1,65 @@
+header {
+    width: 100vw;
+    height: 750px;
+    background-image: url(/assets/backgrounds/Background_Intro.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    div > img {
+        width: 96px;
+        height: 96px;
+
+        border-radius: 50%;
+        border: 3px solid var(--red);
+
+        position: absolute;
+        left: calc(50% - 96px/2);
+        top: calc(20% - 96px/2);
+    }
+
+    #text {
+        text-align: center;
+        padding-top: 330px;
+        
+        h2 {
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 56px;
+            margin-top: 8px;
+        }
+        p {
+            font-size: 16px;
+            margin-top: 20px;
+            color: var(--gray-400);
+        }
+    }
+
+    #tecs {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+
+        margin-top: 80px;
+
+        ul > li {
+            background-color: var(--gray-300);
+
+            display: flex;
+            align-items: center;
+
+            width: 114px;
+            height: 40px;
+
+            border-radius: 16px;
+            justify-content: center;
+            
+        }
+
+
+    }
+}
+
+
+
