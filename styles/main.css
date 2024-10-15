@@ -23,6 +23,7 @@ main {
         grid-gap: 24px;
 
         justify-content: center;
+        padding-bottom: 144px;
         
         .grid {
             width: 330px;
@@ -33,6 +34,7 @@ main {
 
             background-color: var(--gray-300);
             padding: 12px;
+            
 
             img {
                 width: 306px;
