@@ -1,5 +1,5 @@
 header {
-    width: 100vw;
+    width: 99.1vw;
     height: 665px;
     background-image: url(/assets/backgrounds/Background_Intro.png);
     
@@ -16,6 +16,9 @@ header {
         position: absolute;
         left: calc(50% - 96px/2);
         top: calc(20% - 96px/2);
+
+        
+        
     }
 
     #text {
