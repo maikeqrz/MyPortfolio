@@ -9,6 +9,7 @@ header {
     div > img {
         width: 96px;
         height: 96px;
+        object-fit: cover;
 
         border-radius: 50%;
         border: 3px solid var(--red);
@@ -16,9 +17,6 @@ header {
         position: absolute;
         left: calc(50% - 96px/2);
         top: calc(20% - 96px/2);
-
-        
-        
     }
 
     #text {
